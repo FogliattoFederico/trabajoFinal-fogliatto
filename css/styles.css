@@ -295,7 +295,7 @@ hr {
 
 .bg {
     border: 0.5rem solid var(--Oscuro);
-    background-image: url(../img/Juegos/exclusivos.webp);
+    background-image: url(../img/juegos/exclusivos.webp);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
