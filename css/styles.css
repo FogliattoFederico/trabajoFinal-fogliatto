@@ -90,7 +90,8 @@ hr {
 .contenedor-footer h5 {
     color: #ffffff;
     font-size: large;
-    margin-left: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 5rem;
     text-align: start;
     margin-bottom: 0rem; 
 }
@@ -146,8 +147,8 @@ hr {
 
 @media (min-width: 1440px) {
     .especificaciones {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); 
         margin-top: 2rem;
         margin-left: 15rem;
         max-width: 100rem;
@@ -226,7 +227,7 @@ hr {
 
 .contenedor h2 {
     text-align: center;
-   font-weight: lighter;
+    font-weight: lighter;
 }
 
 .contenedor p {
@@ -252,10 +253,8 @@ hr {
 }
 
 .campos {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     align-items: center;
 }
 
@@ -323,14 +322,17 @@ hr {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     color: var(--Blanco);
-    font-size: 3rem;
+    font-size: 5rem;
+    
 }
 
 .cuadro-juegos p {
     line-height: 2;
     color: var(--Blanco);
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
     text-align: center;
+    
 }
 
 .cuadro-juegos a {
@@ -341,6 +343,7 @@ hr {
     border-radius: 2rem;
     padding: 1rem;
     font-weight: bold;
+    font-size: 1rem;
 }
 
 .nav-bar a:hover {
@@ -408,6 +411,7 @@ hr {
         margin-left: 20rem
     }
 }
+
 .descripcion-gow h4 {
     font-size: 3rem;
     font-weight: lighter;
@@ -425,11 +429,12 @@ hr {
 .descripcion-gow a {
     background-color: #2E73E4;
     text-decoration: none;
+    text-align: center;
     border-radius: 2rem;
     padding: 1rem;
     color: var(--Blanco);
     font-size: 130%;
-    width: 14rem;
+    width: 11rem;
     margin-top: 1rem;
     margin-left: 1rem;
 }
@@ -535,9 +540,10 @@ hr {
     padding: 1rem;
     color: var(--Blanco);
     font-size: 130%;
-    width: 14rem;
+    width: 11rem;
     margin-top: 1rem;
     margin-left: 1rem;
+    text-align: center;
 }
 
 @media (min-width: 1440px) {
@@ -584,13 +590,13 @@ hr {
 .accesorios h2 {
     text-align: center;
     margin: 2rem;
-    font-size: 250%;
+    font-size: 350%;
 }
 
 .accesorios p {
     text-align: center;
     color: gray;
-    font-size: 130%;
+    font-size: 200%;
     margin: 0 auto;
     width: 60%;
 }
@@ -602,14 +608,14 @@ hr {
 
 .controles h2 {
     text-align: center;
-    font-size: 230%;
+    font-size: 350%;
     margin-top: 8rem;
 }
 
 .controles p {
     text-align: center;
     color: gray;
-    font-size: 130%;
+    font-size: 200%;
     margin: 0 auto;
     width: 60%;
 }
@@ -722,6 +728,7 @@ hr {
     color: #ffffff;
     text-decoration: none;
     text-align: center;
+    font-size: 1.5rem;
     padding: 1rem;
     border-radius: 2rem;
     display: inline-block;
@@ -755,6 +762,7 @@ hr {
     border-radius: 2rem;
     display: inline-block;
     width: auto;
+    font-size: 1.5rem;
 }
 
 .remote {
@@ -820,14 +828,14 @@ hr {
 
 .remote-descripcion h3 {
     text-align: start;
-    font-size: 2.5rem;
+    font-size: 250%;
     margin-left: 6.5rem;
 }
 
 .remote-descripcion p {
     text-align: start;
     color: gray;
-    font-size: 130%;
+    font-size: 200%;
     margin-left: 6.5rem;
     width: auto;
 }
@@ -846,12 +854,13 @@ hr {
 .pulse h2 {
     text-align: center;
     margin-top: 5rem;
+    font-size: 250%;
 }
 
 .pulse p {
     text-align: start;
     color: gray;
-    font-size: 130%;
+    font-size: 200%;
     margin-left: 5rem;
     width: auto;
 }
@@ -891,4 +900,85 @@ hr {
         width: 120rem;
         
     }
+}
+
+.camara h2{
+    text-align: center;
+    font-size: 300%;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.camara-bs p {
+    color: gray;
+    margin-bottom: 3rem;
+}
+
+.camara-bs img {
+    width: 25rem;
+    margin-left: 4.5rem;
+    margin-top: 3rem;
+}
+
+@media (min-width: 1440px) {
+    .camara-bs img {
+        width: 40rem;
+    }
+}
+
+.storage h2 {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 6rem;
+}
+
+.storage p {
+    text-align: center;
+    font-size: 200%;
+    color: gray;
+}
+
+.almacenamientoInterno{
+    width: 80%;
+    margin-left: 5rem;
+}
+
+.interno .descubre {
+    margin-left: 0rem;
+}
+
+.interno h3 {
+    margin-left: 1rem;
+}
+
+.externo img {
+    width: 80%;
+    margin-left: 5rem;
+}
+
+.externo h3 {
+    text-align: start;
+    margin-left: 1rem;
+}
+
+.externo p {
+    text-align: start;
+}
+
+.externo .descubre {
+    margin-left: 1rem;
+}
+
+.mas-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mas-info .descubre{
+    margin: 0;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    background-color: #EBEDEE;
+    color: #2E73E4;
+    font-weight: bold;
 }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="preload" href="../css/styles.css">
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> 
 </head>
 <body>
     <header class="header">
@@ -89,67 +90,83 @@
             <a class="descubre" href="https://www.playstation.com/en-us/accessories/pulse-3d-wireless-headset/">Enhance your audio</a>
         </div>
     </section>
-    <section>
+    <section class="camara">
         <div>
-            <h2>Cameras</h2>
+            <h2>Camera</h2>
         </div>
-        <div>
-            <div>
-                <div>
-                    <h3>HD camera</h3>
-                </div>
-                <div>
-                    <p>Put yourself at the centre of your gameplay sharing with the HD camera for PS5 consoles. Broadcast yourself picture-in-picture4 in 1080p, crop or remove your background and find the perfect angle with the built-in stand.</p>
-                </div>
-                <div>
-                    <a href="https://www.playstation.com/en-us/accessories/hd-camera/">Hd camera details</a>
+        <div class="container d-flex flex-column flex-sm-row camara-bs">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="text-center fs-1 mt-5">HD camera</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-2 w-auto text-start ">Put yourself at the centre of your gameplay sharing with the HD camera for PS5 consoles. Broadcast yourself picture-in-picture4 in 1080p, crop or remove your background and find the perfect angle with the built-in stand.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <a class="descubre m-0" href="https://www.playstation.com/en-us/accessories/hd-camera/">Hd camera details</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src="../img/accesorios/camara.webp" alt="camara">
-            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="../img/accesorios/camara.webp" alt="camara">
+                </div>
+            </div>    
         </div>
     </section>
-    <section class="storage-flex">
+    <section class="storage">
         <div>
             <h2>Extra storage </h2>
             <p>Save even more games, video clips and screenshots with extra internal and external storage</p>
         </div>
-        <div>
-            <div>
-                <div>
-                    <img src="../img/accesorios/almacenamiento interno.webp" alt="ssd">
+        <div class="container">
+            <div class="row interno">
+                <div class="col-12 col-md-6">
+                    <img class="almacenamientoInterno" src="../img/accesorios/almacenamiento interno.webp" alt="ssd">
                 </div>
-                <div>
-                    <h3>Internal M.2 SSD for PS5</h3>    
+                <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+                    <div>
+                        <h3 class="text-start">Internal M.2 SSD for PS5</h3>    
+                    </div>
+                    <div>
+                        <p class="text-start">Expand your PS5 console's internal storage by up to 2TB with an officially licensed Western Digital SN850 SSD. Easy to install thanks to its all-in-one heatsink design, you can play PS5 and PS4 games directly from the SSD. </p>
+                    </div>
+                    <div>
+                        <a class="descubre" href="https://www.westerndigital.com/products/internal-drives/wd-black-sn850-nvme-ssd-for-ps5#WDBBKW0010BBK-WRSN">Expand your storage</a>
+                    </div>
                 </div>
-                <div>
-                    <p>Expand your PS5 console's internal storage by up to 2TB with an officially licensed Western Digital SN850 SSD. Easy to install thanks to its all-in-one heatsink design, you can play PS5 and PS4 games directly from the SSD. </p>
-                </div>
-                <div>
-                    <a href="https://www.westerndigital.com/products/internal-drives/wd-black-sn850-nvme-ssd-for-ps5#WDBBKW0010BBK-WRSN">Expand your storage</a>
-                </div>
-            </div>
-            <div>
-                <img src="../img/accesorios/alacenamiento externo.webp" alt="sd-externo">
-            </div>
-            <div>
-                <h3>External USB drives for PS4 and PS5</h3>
-            </div>
-            <div>
-                <p>Add an officially licensed Seagate USB 3.0 external hard drive into your setup for up to 2TB of extra space to store PS5 and PS4 games, and play PS4 games directly from the HDD.</p>
-            </div>
-            <div>
-                <a href="https://www.seagate.com/la/es/products/gaming-drives/playstation-gaming/game-drive-playstation/">Shop Seagate storage</a>
             </div>
         </div>
-        <div>
-            <a href="https://www.playstation.com/en-us/accessories/storage-solutions/">More info on extra storage</a>
+        <div class="container">
+            <div class="row externo">
+                <div class="col-12 col-md-6 mt-5">
+                    <div>
+                        <h3>External USB drives for PS4 and PS5</h3>
+                    </div>
+                    <div>
+                        <p>Add an officially licensed Seagate USB 3.0 external hard drive into your setup for up to 2TB of extra space to store PS5 and PS4 games, and play PS4 games directly from the HDD.</p>
+                    </div>
+                    <div>
+                        <a class="descubre" href="https://www.seagate.com/la/es/products/gaming-drives/playstation-gaming/game-drive-playstation/">Shop Seagate storage</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6" >
+                    <img src="../img/accesorios/alacenamiento externo.webp" alt="sd-externo">
+                </div>
+            </div>
+            <div class="mas-info">
+                <a class="descubre" href="https://www.playstation.com/en-us/accessories/storage-solutions/">More info on extra storage</a>
+            </div>
         </div>
-        
-
     </section>
-
+    
     <footer>
         <hr>
         <div class="contenedor-footer">
