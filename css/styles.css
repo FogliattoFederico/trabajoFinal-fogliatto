@@ -93,7 +93,7 @@ hr {
     margin-left: 2rem;
     margin-top: 1rem;
     text-align: start;
-    margin-bottom: 0rem; 
+    margin-bottom: 2rem; 
     font-weight: bold;
 }
 
@@ -161,7 +161,6 @@ hr {
     }
     .flex-consola img {
        height: 80rem;
-       margin-left: 0;
     }
 }
 
