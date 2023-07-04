@@ -91,16 +91,18 @@ hr {
     color: #ffffff;
     font-size: large;
     margin-left: 2rem;
-    margin-bottom: 5rem;
+    margin-top: 1rem;
     text-align: start;
     margin-bottom: 0rem; 
+    font-weight: bold;
 }
 
 .contenedor-footer ul {
     list-style-type: none;
     line-height: 1.5;
     text-align: start;
-    color: #ffffff
+    color: #ffffff;
+    font-size: 1.5rem;
 }
 
 .contenedor-footer a {
@@ -842,7 +844,7 @@ hr {
 
 .descubre-remote {
     margin-left: 6rem;
-    width: 11rem;
+    width: 12rem;
 }
 
 .pulse{
@@ -906,18 +908,25 @@ hr {
     text-align: center;
     font-size: 300%;
     margin-top: 6rem;
-    margin-bottom: 3rem;
+    margin-bottom: -1rem;
 }
 
 .camara-bs p {
     color: gray;
     margin-bottom: 3rem;
+    line-height: 1.5;
 }
 
 .camara-bs img {
     width: 25rem;
     margin-left: 7rem;
     margin-top: 3rem;
+}
+
+@media (min-width: 1440px) {
+    .camara-bs img {
+        margin-left: 15rem;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -940,7 +949,7 @@ hr {
 
 .almacenamientoInterno{
     width: 80%;
-    margin-left: 5rem;
+    margin-left: 4rem;
 }
 
 .interno .descubre {
@@ -966,7 +975,7 @@ hr {
 }
 
 .externo .descubre {
-    margin-left: 1rem;
+    margin-left: 0rem;
 }
 
 .mas-info {
@@ -981,5 +990,4 @@ hr {
     background-color: #EBEDEE;
     color: #2E73E4;
     font-weight: bold;
-
 }
