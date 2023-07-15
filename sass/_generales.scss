@@ -1,0 +1,20 @@
+$oscuro: #212121;
+$blanco: #ffffff; 
+$azul: #17439A; 
+$gris: grey; 
+
+/* GENERALES */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+    background-color: $blanco;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
