@@ -31,7 +31,6 @@ body {
   margin-top: 2rem;
   line-height: 1.5;
   list-style-type: none;
-  display: flex;
   align-items: center;
 }
 .header .nav-bar a {
@@ -55,8 +54,8 @@ body {
   .header .nav-bar ul {
     flex-direction: row;
     align-items: center;
-    margin-top: 4rem;
     justify-content: center;
+    margin-top: 4rem;
   }
 }
 /*FOOTER*/
@@ -151,6 +150,7 @@ hr {
 .flex-consola {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .consola {

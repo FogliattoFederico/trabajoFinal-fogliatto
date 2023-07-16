@@ -1,25 +1,23 @@
 @import "generales";
+@import "mixin";
 
 /*HEADER*/
 
 .header {
     background-color: var(--Blanco);
     max-height: 15rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    @include grid-2-columnas; 
     & .logo img{
         height: 10rem;
         text-align: start;
     }
     .nav-bar {
         & ul{
-            display: flex;
-            flex-direction: column;
+            @include flex-column;
             margin-right: 4rem;
             margin-top: 2rem;
             line-height: 1.5;
             list-style-type: none;
-            display: flex;
             align-items: center;  
         }
         & a{
@@ -45,8 +43,8 @@
     .header .nav-bar ul {
         flex-direction: row;
         align-items: center;
-        margin-top: 4rem;
         justify-content: center;
+        margin-top: 4rem;
     }
 }
 
@@ -94,10 +92,7 @@ hr {
 
 .main-bg {
     background-image: url(../img/ps5.png);
-    background-position: center center;
-    background-size: cover;
-    max-width: 100%;
-    height: 100vh;
+    @include fondo-imagen;
     margin-top: 2rem;
 }
 
@@ -119,15 +114,13 @@ hr {
 @media (min-width: 768px) {
     .especificaciones {
         text-align: center;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        @include grid-1-columna;
         gap: 2rem;
     }
 }
 @media (min-width: 1440px) {
     .especificaciones {
-        display: grid; 
-        grid-template-columns: repeat(2, 1fr); 
+        @include grid-2-columnas; 
         margin-top: 2rem;
         margin-left: 15rem;
         max-width: 100rem;
@@ -141,8 +134,7 @@ hr {
     }
 }
 .flex-consola {
-    display: flex;
-    justify-content: center;
+    @include flex-center;
 }
 .consola {
     width: 20rem;
@@ -225,8 +217,7 @@ hr {
     }
 }
 .controles-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    @include grid-2-columnas;
     width: auto;
     max-width: 100%;
     height: auto;
