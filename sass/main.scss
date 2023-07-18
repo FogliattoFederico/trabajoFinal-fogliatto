@@ -9,7 +9,6 @@
     @include grid-2-columnas; 
     & .logo img{
         height: 10rem;
-        text-align: start;
     }
     .nav-bar {
         & ul{
@@ -318,6 +317,9 @@ hr {
     margin-left: 11rem;
     margin-right: 1rem;
 }
+.descubre:hover{
+    @include boton;
+}
 @media (max-width: 767px ) {
     .descubre {
         margin-left: 5rem;
@@ -343,6 +345,10 @@ hr {
     width: auto;
     font-size: 1.5rem;
 }
+.compra:hover{
+    @include boton;
+}
+
 .remote {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

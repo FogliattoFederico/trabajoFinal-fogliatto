@@ -22,7 +22,6 @@ body {
 }
 .header .logo img {
   height: 10rem;
-  text-align: start;
 }
 .header .nav-bar ul {
   display: flex;
@@ -340,6 +339,11 @@ hr {
   margin-right: 1rem;
 }
 
+.descubre:hover {
+  text-align: center;
+  transform: scale(1.1, 1.1);
+}
+
 @media (max-width: 767px) {
   .descubre {
     margin-left: 5rem;
@@ -364,6 +368,11 @@ hr {
   display: inline-block;
   width: auto;
   font-size: 1.5rem;
+}
+
+.compra:hover {
+  text-align: center;
+  transform: scale(1.1, 1.1);
 }
 
 .remote {
