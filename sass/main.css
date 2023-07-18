@@ -13,6 +13,20 @@ body {
   box-sizing: inherit;
 }
 
+@keyframes animacion {
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: green;
+  }
+  75% {
+    background-color: black;
+  }
+  100% {
+    background-color: red;
+  }
+}
 /*HEADER*/
 .header {
   background-color: var(--Blanco);
@@ -599,6 +613,9 @@ hr {
 
 .cuadro-juegos {
   background-color: #212121;
+  animation-name: animacion;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
   width: 30rem;
   height: 35rem;
   align-items: center;
