@@ -697,8 +697,8 @@ hr {
   margin-left: 1rem;
 }
 .descripcion-gow a:hover {
-  padding: 1.1rem 0;
   text-align: center;
+  transform: scale(1.1, 1.1);
 }
 
 @media (min-width: 768px) {
@@ -781,8 +781,8 @@ hr {
   text-align: center;
 }
 .descripcion-tlou a:hover {
-  padding: 1.3rem 0;
   text-align: center;
+  transform: scale(1.1, 1.1);
 }
 
 @media (min-width: 768px) {

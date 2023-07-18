@@ -663,8 +663,7 @@ hr {
         margin-top: 1rem;
         margin-left: 1rem;
         &:hover{
-            padding: 1.1rem 0;
-            text-align: center;
+            @include boton;
         }
     }
 }
@@ -743,9 +742,7 @@ hr {
         margin-left: 1rem;
         text-align: center;
         &:hover{
-            padding: 1.3rem 0;
-            text-align: center;
-            
+            @include boton;
         }
     }
 } 

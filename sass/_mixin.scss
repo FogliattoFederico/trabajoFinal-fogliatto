@@ -21,3 +21,7 @@
     justify-content: center;
     align-items: center;
 }
+@mixin boton{
+    text-align: center;
+    transform: scale(1.1, 1.1);
+}
